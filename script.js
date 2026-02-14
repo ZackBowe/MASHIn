@@ -1,7 +1,7 @@
-const sound = document.getElementById("winSound");
+const envelope = document.getElementById("envelope");
+const music = document.getElementById("music");
 
-function menang() {
-  popup.style.display = "flex";
-  sound.src = "ssstik.io_1771054898171.mp3";
-  sound.play();
-}
+envelope.onclick = function () {
+  music.src = "ssstik.io_1771054898171.mp3";
+  music.play();
+};
