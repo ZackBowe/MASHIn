@@ -1,28 +1,31 @@
-#game-area {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  border: 3px solid pink;
-  margin: auto;
+body {
+  margin: 0;
+  height: 100vh;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
 }
 
-#claw {
-  position: absolute;
-  top: 0;
-  left: 120px;
-  font-size: 40px;
+/* AMPL0P */
+#envelope {
+  width: 80%;
+  height: 16.6vh; /* 1/6 layar */
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 
-.doll {
-  position: absolute;
-  bottom: 20px;
-  left: 130px;
-  font-size: 40px;
+#envelope img {
+  height: 70%;
+  border-radius: 10px;
 }
 
-#popup {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
+#envelope p {
+  margin: 5px;
+  font-weight: bold;
 }
